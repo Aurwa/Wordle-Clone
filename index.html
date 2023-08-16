@@ -6,9 +6,28 @@
 
     <!-- tailwind css -->
     <link href="/dist/output.css" rel="stylesheet" />
+    <!-- google font -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <!-- title -->
     <title>Wordle</title>
   </head>
   <body>
-    <h1 class="text-4xl">WORDLE</h1>
+    <div class="bg-bodyBg h-screen flex flex-col items-center py-4 px-8">
+      <h1 class="text-4xl font-semibold text-white tracking-widest">WORDLE</h1>
+
+      <section class="game">
+        <div class="guess grid grid-cols-5 gap-1 w-80 mt-10">
+          <div class="tile border-2 border-[#424242] w-14 h-14"></div>
+          <div class="tile border-2 border-[#424242] w-14 h-14"></div>
+          <div class="tile border-2 border-[#424242] w-14 h-14"></div>
+          <div class="tile border-2 border-[#424242] w-14 h-14"></div>
+          <div class="tile border-2 border-[#424242] w-14 h-14"></div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
