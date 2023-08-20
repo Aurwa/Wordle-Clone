@@ -12,6 +12,14 @@ module.exports = {
         correctColor: "#538d4e",
         absentColor: "#3a3a3c",
       },
+
+      gridTemplateColumns: {
+        20: "repeat(20, minmax(0, 1.25em))",
+      },
+
+      gridAutoRows: {
+        "3em": "3em",
+      },
     },
   },
   plugins: [],
